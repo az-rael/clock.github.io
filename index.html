@@ -1,1 +1,58 @@
-Hello Worl
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Drum Kit</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <diV class="keys"> 
+            <div data-key="77" class="key"><kbd>M</kbd> 
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="85" class="key" ><kbd>U</kbd>   
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="83" class="key"><kbd>S</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="73" class="key"><kbd>I</kbd> 
+                <span class="sound">openhat</span>
+            </div>
+            <div data-key="67" class="key"><kbd>C</kbd> 
+                <span class="sound">boom</span>
+            </div>
+            <div data-key="80" class="key"><kbd>P</kbd> 
+                <span class="sound">ride</span>
+            </div>
+            <div data-key="65" class="key"><kbd>A</kbd> 
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="82" class="key"><kbd>R</kbd> 
+                <span class="sound">tom</span>
+            </div>
+            <div data-key="84" class="key"><kbd>T</kbd> 
+                <span class="sound">tink</span>
+            </div>
+            <div data-key="89" class="key"><kbd>Y</kbd> 
+                <span class="sound">surprise</span>
+            </div>
+        </diV>
+
+        <audio data-key="77" src="sounds/clap.wav"></audio>
+        <audio data-key="85" src="sounds/hihat.wav"></audio>
+        <audio data-key="83" src="sounds/kick.wav"></audio>
+        <audio data-key="73" src="sounds/openhat.wav"></audio>
+        <audio data-key="67" src="sounds/boom.wav"></audio>
+        <audio data-key="80" src="sounds/ride.wav"></audio>
+        <audio data-key="65" src="sounds/snare.wav"></audio>
+        <audio data-key="82" src="sounds/tom.wav"></audio>
+        <audio data-key="84" src="sounds/tink.mp3"></audio>
+        <audio data-key="89" src="sounds/prout.mp3"></audio>
+    
+    
+    <!--Source :https://samplefocus.com-->
+   <script src="script.js"></script>
+    </body>
+</html>
